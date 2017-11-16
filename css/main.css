@@ -48,6 +48,7 @@ h1 {
     margin: 0 auto;
 }
 
+/*this is the image for the home page*/
 .bigimage {
     width: 100%;
 }
@@ -68,4 +69,20 @@ footer {
     text-align: center;
     clear: both;
 }
+
+.flex-container {
+    display: flex;
+    display: -webkit-flex;
+    width: 100%;
+    background-color: seagreen;
+    justify-content: center;
+    -webkit-justify-content: center;
+}
+
+.flex-item {
+    background-color: blue;
+    margin: 1em;
+}
+
+
 
